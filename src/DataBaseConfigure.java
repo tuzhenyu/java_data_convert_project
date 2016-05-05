@@ -4,13 +4,13 @@
  */
 public class DataBaseConfigure {
 
-    public static final String DATA_BASE_CET4 = "CET4";
-    public static final String DATA_BASE_CET6 = "CET6";
+    public static final String DATA_BASE_CET4 = "table_cet4";
+    public static final String DATA_BASE_CET6 = "table_cet6";
     public static final String DATA_BASE_IELTS = "IELTS";
     public static final String DATA_BASE_TOEFL = "TOEFL";
     public static final String DATA_BASE_SAT = "SAT";
     public static final String DATA_BASE_GRE_BASE = "GRE_BASE";
-    public static final String DATA_BASE_SEFC = "SEFC";//¸ßÖÐÓ¢Óï¯­
-    public static final String DATA_BASE_JEFC = "JEFC";//³õÖÐÓ¢Óï¯­
+    public static final String DATA_BASE_SEFC = "SEFC";//ï¿½ï¿½ï¿½ï¿½Ó¢ï¿½ï¯­
+    public static final String DATA_BASE_JEFC = "JEFC";//ï¿½ï¿½ï¿½ï¿½Ó¢ï¿½ï¯­
 
 }

@@ -49,13 +49,13 @@ public class LibraryParser {
             String str;
             
             while ((str = br.readLine())!=null) {
-            	++i;
                 word = parser.parserString(str);
                 if(word != null){
                 	wods.add(word);
+                	++i;
                 }
             }
-            System.out.println(l_name + "-行数 ： " + i);
+            System.out.println(l_name + "鐨勫崟璇嶆暟涓猴細 " + i);
             LibraryObject lo = new LibraryObject();
 			lo.setLibraryName(fileToReadName);
 			lo.setVersion(version);
@@ -63,7 +63,7 @@ public class LibraryParser {
             
             br.close();
             
-            //写成json格式文件
+            //
             return createJsonFile(lo);     
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -97,8 +97,5 @@ public class LibraryParser {
 			ps.close();
 		}
 	}
-	
-	
-	
 	
 }
